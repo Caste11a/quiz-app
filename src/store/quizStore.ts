@@ -1,5 +1,6 @@
 import { create } from 'zustand';
-import questionsData from '../data/questions.json';
+import jsQuestionsData from '../data/jsQuestions.json';
+import tsQuestionsData from '../data/tsQuestions.json';
 import { shuffle } from '../utils/shuffle';
 
 export interface Question {
@@ -27,6 +28,8 @@ export const useQuizStore = create<QuizState>((set, get) => ({
   selectedCategory: null,
 
   selectCategory: (category) => {
+    const questionsData = [...jsQuestionsData, ...tsQuestionsData];
+
     const filtered = questionsData.filter((q) => q.category === category);
     const shuffled = shuffle(filtered);
     set({
@@ -37,6 +40,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     });
   },
 
+  // 選択結果
   answerQuestion: (selected) => {
     const { questions, currentQuestionIndex, score } = get();
     const isCorrect = questions[currentQuestionIndex].answer === selected;

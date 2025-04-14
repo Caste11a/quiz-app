@@ -1,0 +1,87 @@
+[
+  {
+    "category": "TypeScript",
+    "question": "TypeScriptで型を明示的に定義するキーワードは？",
+    "options": ["define", "interface", "type", "declare"],
+    "answer": "type"
+  },
+  {
+    "category": "TypeScript",
+    "question": "型安全に関数引数を定義する方法は？",
+    "options": [
+      "any型を使う",
+      "明示的に型を指定",
+      "型推論に任せる",
+      "関数の外で定義"
+    ],
+    "answer": "明示的に型を指定"
+  },
+  {
+    "category": "TypeScript",
+    "question": "オプショナルなプロパティはどの記号を使う？",
+    "options": ["?", "!", "*", ":"],
+    "answer": "?"
+  },
+  {
+    "category": "TypeScript",
+    "question": "コンパイル時に型を確認できる利点は？",
+    "options": [
+      "実行速度が速くなる",
+      "型エラーを早期発見",
+      "メモリ消費が減る",
+      "JavaScriptより軽い"
+    ],
+    "answer": "型エラーを早期発見"
+  },
+  {
+    "category": "TypeScript",
+    "question": "TypeScriptでユニオン型を作るには？",
+    "options": ["|", "&", "or", "+"],
+    "answer": "|"
+  },
+  {
+    "category": "TypeScript",
+    "question": "インターフェースと型エイリアスの違いは？",
+    "options": [
+      "使い方が全く異なる",
+      "拡張方法が異なる",
+      "どちらも同じ",
+      "速度が違う"
+    ],
+    "answer": "拡張方法が異なる"
+  },
+  {
+    "category": "TypeScript",
+    "question": "ReactのPropsに型をつける際によく使うのは？",
+    "options": [
+      "type Props",
+      "interface Props",
+      "Props(): void",
+      "React.Props"
+    ],
+    "answer": "interface Props"
+  },
+  {
+    "category": "TypeScript",
+    "question": "TypeScriptでnullもしくは値の型を表すには？",
+    "options": ["null|型", "型|null", "どちらもOK", "undefinedだけ使う"],
+    "answer": "どちらもOK"
+  },
+  {
+    "category": "TypeScript",
+    "question": "any型を使うデメリットは？",
+    "options": [
+      "コードが長くなる",
+      "パフォーマンスが落ちる",
+      "型安全が失われる",
+      "コンパイルできない"
+    ],
+    "answer": "型安全が失われる"
+  },
+  {
+    "category": "TypeScript",
+    "question": "TypeScriptの型チェックはどのタイミングで行われる？",
+    "options": ["ランタイム", "ビルド時", "実行後", "読み込み後"],
+    "answer": "ビルド時"
+  }
+]

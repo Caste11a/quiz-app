@@ -1,7 +1,7 @@
-import React from 'react';
 import { useQuizStore } from '../store/quizStore';
 import { shuffle } from '../utils/shuffle';
 
+// 選択肢を表示する
 const AnswerOptions = () => {
   const { currentQuestionIndex, questions, answerQuestion, nextQuestion } =
     useQuizStore();
@@ -10,7 +10,7 @@ const AnswerOptions = () => {
 
   const handleAnswer = (option: string) => {
     answerQuestion(option);
-    setTimeout(() => nextQuestion(), 500);
+    nextQuestion();
   };
 
   return (

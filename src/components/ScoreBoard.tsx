@@ -1,8 +1,13 @@
-import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useQuizStore } from '../store/quizStore';
 
 const ScoreBoard = () => {
   const { score, questions, reset } = useQuizStore();
+  const navigate = useNavigate();
+  const stateReset = () => {
+    reset;
+    navigate('/');
+  };
 
   return (
     <div className="text-center">
@@ -11,7 +16,7 @@ const ScoreBoard = () => {
       </h2>
       <button
         className="px-4 py-2 bg-green-500 text-white rounded"
-        onClick={reset}
+        onClick={() => stateReset()}
       >
         もう一度プレイ
       </button>

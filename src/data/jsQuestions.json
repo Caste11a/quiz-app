@@ -1,0 +1,62 @@
+[
+  {
+    "category": "JavaScript",
+    "question": "JavaScriptで非同期処理を扱う構文はどれ？",
+    "options": ["forEach", "async/await", "map", "reduce"],
+    "answer": "async/await"
+  },
+  {
+    "category": "JavaScript",
+    "question": "null と undefined の違いは何？",
+    "options": ["同じ意味", "型が異なる", "undefinedはオブジェクト", "nullは未定義"],
+    "answer": "型が異なる"
+  },
+  {
+    "category": "JavaScript",
+    "question": "配列の末尾に要素を追加するメソッドは？",
+    "options": ["push", "pop", "shift", "unshift"],
+    "answer": "push"
+  },
+  {
+    "category": "JavaScript",
+    "question": "オブジェクトのプロパティをループする構文は？",
+    "options": ["for", "for...in", "for...of", "while"],
+    "answer": "for...in"
+  },
+  {
+    "category": "JavaScript",
+    "question": "関数式を定義する正しい方法は？",
+    "options": ["function() {}", "const fn = function() {}", "def fn()", "lambda => {}"],
+    "answer": "const fn = function() {}"
+  },
+  {
+    "category": "JavaScript",
+    "question": "変数をブロックスコープで宣言するには？",
+    "options": ["var", "let", "const", "define"],
+    "answer": "let"
+  },
+  {
+    "category": "JavaScript",
+    "question": "関数が何も返さない時の戻り値は？",
+    "options": ["null", "undefined", "false", "0"],
+    "answer": "undefined"
+  },
+  {
+    "category": "JavaScript",
+    "question": "JavaScriptの型判定に使う演算子は？",
+    "options": ["typeof", "instanceof", "type", "classof"],
+    "answer": "typeof"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Promiseの状態でないものはどれ？",
+    "options": ["pending", "resolved", "fulfilled", "rejected"],
+    "answer": "resolved"
+  },
+  {
+    "category": "JavaScript",
+    "question": "オブジェクトを展開してコピーする構文は？",
+    "options": ["Object.assign()", "...スプレッド構文", "copy()", "clone()"],
+    "answer": "...スプレッド構文"
+  }
+]
